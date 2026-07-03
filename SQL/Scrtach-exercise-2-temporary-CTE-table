@@ -1,4 +1,5 @@
 # Q: Calculates the difference between the highest salaries in the marketing and engineering departments. Output just the absolute difference in salaries.
+## Note - steps in Sql are : Join → Sort → Formula → Filter
 
 ## Here is the first part of the codde joining the table. The next part would involve finding the salary but it can be hard to do when the code becomes long without breaking it. So an alterantive is to save the output to a tempory CTE table.
 
