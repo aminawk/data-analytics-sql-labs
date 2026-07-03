@@ -1,4 +1,4 @@
-# SQL JOINs in BI Context (Real-World Notes)
+# Left Joining data on Metadata (Real-World Notes)
 
 ## Overview
 
