@@ -15,7 +15,7 @@ b.department
 FROM db_employee AS a
 LEFT JOIN db_dept AS b
 ON a.department_id = b.id
-
+```
 
 ### Saving to a tempory CTE:
 ```sql
@@ -36,3 +36,4 @@ SELECT *
 MAX(salary) AS max_salary
 FROM employee_dept
 GROUP BY department;
+'''
