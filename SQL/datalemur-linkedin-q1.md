@@ -1,5 +1,6 @@
 #https://datalemur.com/questions/matching-skills
 
+```sql
 SELECT candidate_id
 FROM candidates
 WHERE skill IN ('Python', 'Tableau', 'PostgreSQL')
