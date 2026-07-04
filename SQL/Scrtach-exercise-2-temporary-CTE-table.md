@@ -3,6 +3,7 @@
 
 --- Here is the first part of the codde joining the table. The next part would involve finding the salary but it can be hard to do when the code becomes long without breaking it. So an alterantive is to save the output to a tempory CTE table.
 
+```sql
 SELECT 
 a.department_id,
 a.first_name,
@@ -17,7 +18,7 @@ ON a.department_id = b.id
 
 
 ### Saving to a tempory CTE:
-
+```sql
 WITH employee_dept AS ( --tempory table employee_dept
     SELECT
         a.department_id,
